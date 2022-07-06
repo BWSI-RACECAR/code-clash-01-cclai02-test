@@ -3,9 +3,19 @@
     {
       "name": "Test 1",
       "setup": "",
-      "run": "python3 palindrome.py racecar",
-      "input": "",
+      "run": "python3 palindrome.py",
+      "input": "racecar",
       "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "python3 palindrome.py",
+      "input": "314156",
+      "output": "False",
       "comparison": "included",
       "timeout": 1,
       "points": 10
