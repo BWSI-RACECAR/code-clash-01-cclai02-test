@@ -19,6 +19,16 @@
       "comparison": "included",
       "timeout": 1,
       "points": 10
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "python3 palindrome.py \"nurses run\"",
+      "input": "",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
     }
   ]
 }
