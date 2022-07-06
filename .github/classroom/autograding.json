@@ -3,8 +3,8 @@
     {
       "name": "Test 1",
       "setup": "",
-      "run": "python3 palindrome.py",
-      "input": "racecar",
+      "run": "python3 palindrome.py racecar",
+      "input": "",
       "output": "True",
       "comparison": "included",
       "timeout": 1,
@@ -13,8 +13,8 @@
     {
       "name": "Test 2",
       "setup": "",
-      "run": "python3 palindrome.py",
-      "input": "314156",
+      "run": "python3 palindrome.py 314156",
+      "input": "",
       "output": "False",
       "comparison": "included",
       "timeout": 1,
